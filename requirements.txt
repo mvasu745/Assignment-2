@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 flask==2.0.3
 pymysql==1.0.2
 cryptography==38.0.1
+=======
+flask==2.0.3
+pymysql==1.0.2
+cryptography==38.0.1
+>>>>>>> 9e745dc (Added files from Assignment 1)
 Werkzeug==2.0.3
