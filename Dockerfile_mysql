@@ -1,12 +1,5 @@
-<<<<<<< HEAD
 FROM mysql:8.0
 
 COPY ./mysql.sql /tmp
 
-=======
-FROM mysql:8.0
-
-COPY ./mysql.sql /tmp
-
->>>>>>> 9e745dc (Added files from Assignment 1)
 CMD [ "mysqld", "--init-file=/tmp/mysql.sql" ]
