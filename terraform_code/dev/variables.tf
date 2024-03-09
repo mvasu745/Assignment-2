@@ -3,8 +3,8 @@ variable "instance_type" {
   default = {
     "prod"    = "t3.large"
     "test"    = "t3.large"
-    "staging" = "t2.micro"
-    "dev"     = "t2.micro"
+    "staging" = "t2.large"
+    "dev"     = "t2.large"
   }
   description = "Type of the instance"
   type        = map(string)

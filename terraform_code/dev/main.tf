@@ -64,7 +64,7 @@ resource "aws_instance" "my_amazon" {
 
 # Adding SSH key to Amazon EC2
 resource "aws_key_pair" "assignment_key" {
-  key_name   = local.name_prefix
+  key_name   = "assignment_key"
   public_key = file("assignment_key.pub")
 }
 
